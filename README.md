@@ -1,7 +1,7 @@
 <div align="center">
   
 
-<img width="1516" height="453" alt="woah" src="https://github.com/user-attachments/assets/94cc7ba5-61b3-434b-b242-e30330dd98f7" />
+<img width="1300" height="170" alt="woah" src="https://github.com/user-attachments/assets/94cc7ba5-61b3-434b-b242-e30330dd98f7" />
 
   <br>
   <img src="https://github.com/user-attachments/assets/ce7aa3a4-ea68-44c2-b61d-6e9d369442c9" alt="Coding GIF" />
