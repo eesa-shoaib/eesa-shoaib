@@ -1,3 +1,4 @@
+<img width="1440" height="2984" alt="image" src="https://github.com/user-attachments/assets/4fde9e4c-d8fd-409b-898d-bcada42d50f7" />
 ```
 EESA_OS v1.0 — initializing...
 [ OK ] engineer.core loaded
