@@ -1,5 +1,7 @@
 <div align="center">
-  <img width="2897" height="368" alt="Gemini_Generated_Image_84wmn084wmn084wm" src="https://github.com/user-attachments/assets/d4c5010c-3792-466a-82b1-8b0881ffc5d5" />
+  
+
+<img width="1516" height="453" alt="woah" src="https://github.com/user-attachments/assets/94cc7ba5-61b3-434b-b242-e30330dd98f7" />
 
   <br>
   <img src="https://github.com/user-attachments/assets/ce7aa3a4-ea68-44c2-b61d-6e9d369442c9" alt="Coding GIF" />
