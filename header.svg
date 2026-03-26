@@ -1,3 +1,89 @@
+<svg width="740" height="152" viewBox="0 0 740 152" xmlns="http://www.w3.org/2000/svg">
+  <rect width="740" height="152" fill="#0d1017" rx="8"/>
+  <style>
+    text {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 13px;
+      fill: #3d4f5c;
+    }
+    .ok  { fill: #7fd962; }
+    .or  { fill: #ff8f40; }
+    .cy  { fill: #39bae6; }
+    .pu  { fill: #d2a6ff; }
+    .wh  { fill: #bfbdb6; }
+    .ye  { fill: #e6b450; }
+
+    .l0 { animation: fade .25s ease 0.0s both; }
+    .l1 { animation: fade .25s ease 0.3s both; }
+    .l2 { animation: fade .25s ease 0.6s both; }
+    .l3 { animation: fade .25s ease 0.9s both; }
+    .l4 { animation: fade .25s ease 1.2s both; }
+    .l5 { animation: fade .25s ease 1.5s both; }
+    .l6 { animation: fade .25s ease 1.8s both; }
+    .l7 { animation: fade .25s ease 2.1s both; }
+
+    .cursor {
+      animation: blink 1s step-end 2.5s infinite;
+      fill: #ff8f40;
+    }
+    @keyframes fade {
+      from { opacity: 0; transform: translateX(-4px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0; }
+    }
+  </style>
+
+  <!-- divider top -->
+  <text class="l0" x="18" y="24">────────────────────────────────────────────────────────────</text>
+
+  <!-- boot lines -->
+  <text class="l1" x="18" y="46">
+    <tspan class="ok">[ OK ]</tspan>
+    <tspan class="wh">  kernel: </tspan>
+    <tspan class="or">engineer.core</tspan>
+    <tspan class="wh"> loaded</tspan>
+  </text>
+
+  <text class="l2" x="18" y="66">
+    <tspan class="ok">[ OK ]</tspan>
+    <tspan class="wh">  modules: </tspan>
+    <tspan class="cy">systems</tspan>
+    <tspan class="wh"> / </tspan>
+    <tspan class="cy">games</tspan>
+    <tspan class="wh"> / </tspan>
+    <tspan class="cy">ai-infra</tspan>
+  </text>
+
+  <text class="l3" x="18" y="86">
+    <tspan class="ok">[ OK ]</tspan>
+    <tspan class="wh">  runtime: </tspan>
+    <tspan class="or">Go</tspan>
+    <tspan class="wh"> · </tspan>
+    <tspan class="cy">C++</tspan>
+    <tspan class="wh"> · </tspan>
+    <tspan class="pu">C#</tspan>
+    <tspan class="wh"> · </tspan>
+    <tspan class="ok">Flutter</tspan>
+  </text>
+
+  <text class="l4" x="18" y="106">
+    <tspan class="ok">[ OK ]</tspan>
+    <tspan class="wh">  status: </tspan>
+    <tspan class="ye">online — accepting connections</tspan>
+  </text>
+
+  <!-- divider bottom -->
+  <text class="l5" x="18" y="126">────────────────────────────────────────────────────────────</text>
+
+  <!-- prompt + cursor -->
+  <text class="l6" x="18" y="146">
+    <tspan class="wh" style="fill:#3d4f5c">$ </tspan>
+    <tspan class="cursor">█</tspan>
+  </text>
+</svg>
 <svg width="740" height="130" viewBox="0 0 740 130"
   xmlns="http://www.w3.org/2000/svg">
   <rect width="740" height="130" fill="#0d1017" rx="8"/>
