@@ -1,0 +1,22 @@
+<svg width="740" height="130" viewBox="0 0 740 130"
+  xmlns="http://www.w3.org/2000/svg">
+  <rect width="740" height="130" fill="#0d1017" rx="8"/>
+  <style>
+    text { font-family: 'Courier New', monospace; font-size: 13px; fill: #3d4f5c; }
+    .ok  { fill: #7fd962; }
+    .or  { fill: #ff8f40; }
+    .cy  { fill: #39bae6; }
+    .wh  { fill: #bfbdb6; }
+    .l1  { animation: fade .3s ease .2s both; }
+    .l2  { animation: fade .3s ease .5s both; }
+    .l3  { animation: fade .3s ease .8s both; }
+    .l4  { animation: fade .3s ease 1.1s both; }
+    .l5  { animation: fade .3s ease 1.4s both; }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  </style>
+  <text class="l1" x="20" y="25">────────────────────────────────────────────────</text>
+  <text class="l2" x="20" y="50"><tspan class="ok">[ OK ]</tspan> <tspan class="wh"> kernel: </tspan><tspan class="or">engineer.core</tspan></text>
+  <text class="l3" x="20" y="70"><tspan class="ok">[ OK ]</tspan> <tspan class="wh"> runtime: </tspan><tspan class="or">Go</tspan><tspan> · </tspan><tspan class="cy">C++</tspan><tspan> · C# · Flutter</tspan></text>
+  <text class="l4" x="20" y="90"><tspan class="ok">[ OK ]</tspan> <tspan class="wh"> status: </tspan><tspan class="or">online — accepting connections</tspan></text>
+  <text class="l5" x="20" y="115">────────────────────────────────────────────────</text>
+</svg>
